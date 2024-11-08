@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/templates/bookshelf/css/style.css" />
+  <title>Книжная полка дизайнера</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <a href="./index.html">
+            <img src="./assets/templates/bookshelf/img/icons/logo.svg" alt="icon" />
+        </a>
+      </div>
+      <div class="header__menu">
+        <div class="header__menu--el">
+          <img src="./assets/templates/bookshelf/img/icons/search.svg" alt="icon">
+          <p class="header__menu--text">Поиск</p>
+        </div>
+        <div class="header__menu--el">
+          <img src="./assets/templates/bookshelf/img/icons/deferred.svg" alt="icon">
+          <p class="header__menu--text">Отложенные</p>
+        </div>
+        <div class="header__menu--el" id="entrance">
+          <img src="./assets/templates/bookshelf/img/icons/account.svg" alt="icon">
+          <p class="header__menu--text">Вход</p>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="nav__btn">
+        Все
+      </div>
+      <div class="nav__btn">
+        Дизайн
+      </div>
+      <div class="nav__btn">
+        Печать
+      </div>
+      <div class="nav__btn">
+        Программирование
+      </div>
+    </nav>
+    <div class="tag">
+      <div class="tag__btns">
+        <button class="tag__btn">
+          # рисунок
+        </button>
+        <button class="tag__btn">
+          # дизайн
+        </button>
+        <button class="tag__btn">
+          # каллиграфия
+        </button>
+        <button class="tag__btn">
+          # шрифты
+        </button>
+        <button class="tag__btn">
+          # программирование
+        </button>
+        <button class="tag__btn">
+          # математика
+        </button>
+      </div>
+    </div>
+    <main class="main">
+
+      <div class="main__content">
+        <div class="main__content-book">
+          <a href="./book.html" class="main__content-book-img"><img src="./assets/templates/bookshelf/img/books/1.png" alt="book"/></a>
+          <div class="main__content-book-text">
+            <a href="./book.html" class="main__content-book-title">Дизайн книга для недизайнеров</a>
+            <a href="./book.html" class="main__content-book-subtitle">Design Nikkei</a>
+          </div>
+        </div>
+
+
+        <div class="main__content-book">
+          <a href="#" class="main__content-book-img"><img src="./assets/templates/bookshelf/img/books/2.png" alt="book"/></a>
+          <div class="main__content-book-text">
+            <a href="#" class="main__content-book-title">Иконы графического дизайна</a>
+            <a href="#" class="main__content-book-subtitle">Джон Клиффорд</a>
+          </div>
+        </div>
+
+        <div class="main__content-book">
+          <a href="#" class="main__content-book-img"><img src="./assets/templates/bookshelf/img/books/3.png" alt="book"/></a>
+          <div class="main__content-book-text">
+            <a href="#" class="main__content-book-title">Дизайн-мышление</a>
+            <a href="#" class="main__content-book-subtitle">Оливер Кемпкенс</a>
+          </div>
+        </div>
+
+        <div class="main__content-book">
+          <a href="#" class="main__content-book-img"><img src="./assets/templates/bookshelf/img/books/4.png" alt="book"/></a>
+          <div class="main__content-book-text">
+            <a href="#" class="main__content-book-title">Ux/ui дизайн для создания идеального продукта</a>
+            <a href="#" class="main__content-book-subtitle">Ярослав Шуваев</a>
+          </div>
+        </div>
+
+        <div class="main__content-book">
+          <a href="#" class="main__content-book-img"><img src="./assets/templates/bookshelf/img/books/5.png" alt="book"/></a>
+          <div class="main__content-book-text">
+            <a href="#" class="main__content-book-title">Дизайнер интерфейсов.Принципы работы и построение карьеры</a>
+            <a href="#" class="main__content-book-subtitle">Илья Сидоренко</a>
+          </div>
+        </div>
+
+        <div class="main__content-book">
+          <a href="#" class="main__content-book-img"><img src="./assets/templates/bookshelf/img/books/6.png" alt="book"/></a>
+          <div class="main__content-book-text">
+            <a href="#" class="main__content-book-title">UX-дизайн. Практическое руководствопо проектированию опыта
+              взаимодействия</a>
+            <a href="#" class="main__content-book-subtitle">
+              Кэролайн Чендлер Расс Унгер
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="entrance-modal">
+        <div class="modal-body">
+          <div class="modal-content">
+            <div class="modal-close" id="modal-close">
+              <img src="./assets/templates/bookshelf/img/icons/exit.svg" alt="">
+            </div>
+            <div class="modal-form">
+              <h3 class="modal-title">Регистрация</h3>
+              <div class="modal-info">
+                <input type="text" placeholder="Почта...">
+                <input type="text" placeholder="Пароль...">
+              </div>
+              <div class="modal-btn">
+                <button class="btn">Зарегистрироваться</button>
+              </div>
+              <div class="modal-text">
+                <p>У меня есть аккаунт</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <script src="./assets/templates/bookshelf/js/main.js"></script>
+  <script src="./assets/templates/bookshelf/js/modal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+
+.tag {
+    margin-top: 80px;
+
+    &__btns {
+        display: flex; 
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    // .tag__btn
+
+    &__btn {
+        border: 1px solid $accent-color;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: $body-bg-color;
+        transform: 1s;
+        &:hover {
+            background-color: $accent-color;
+            color: $body-bg-color;
+        }
+    }
+
+
+
+    &__btn--burger {
+    }
+}
